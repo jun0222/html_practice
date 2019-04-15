@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>products</title>
+  </head>
+  <body>
+
+    <!-- ヘッダー部 -->
+    <header>
+      <!-- 検索フォーム ボタン-->
+
+      <nav id="search_tool">
+        <ul>
+          <li><input></li>
+          <li><input type="submit" value="Search"></li>
+          <li><input type="button" value="Category" onClick=""></li>
+          <li><input type="button" value="rand" onClick=""></li>
+        </ul>
+      </nav>
+
+    </header>
+
+    <!-- 商品一覧 -->
+    <section>
+
+      <!-- 上段 -->
+      <div id="container">
+
+        <div class="product">
+          <img src="offwhite.jpg">
+          <div class="text">
+            <h3 class="product_title">オフホワイト</h3>
+            <div class="product_data">38000円</div>
+          </div>
+        </div>
+
+        <div class="product">
+          <img src="pera.jpg">
+          <div class="text">
+            <h3 class="product_title">ペラフィネ</h3>
+            <div class="product_data">72000円</div>
+          </div>
+        </div>
+
+        <div class="product">
+          <img src="offwhite.jpg">
+          <div class="text">
+            <h3 class="product_title">オフホワイト</h3>
+            <div class="product_data">38000円</div>
+          </div>
+        </div>
+
+        <div class="product">
+          <img src="pera.jpg">
+          <div class="text">
+            <h3 class="product_title">ペラフィネ</h3>
+            <div class="product_data">72000円</div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- 中段 -->
+      <div id="container">
+
+        <div class="product">
+          <img src="pera.jpg">
+          <div class="text">
+            <h3 class="product_title">ペラフィネ</h3>
+            <div class="product_data">72000円</div>
+          </div>
+        </div>
+
+        <div class="product">
+          <img src="offwhite.jpg">
+          <div class="text">
+            <h3 class="product_title">オフホワイト</h3>
+            <div class="product_data">38000円</div>
+          </div>
+        </div>
+
+        <div class="product">
+          <img src="pera.jpg">
+          <div class="text">
+            <h3 class="product_title">ペラフィネ</h3>
+            <div class="product_data">72000円</div>
+          </div>
+        </div>
+
+        <div class="product">
+          <img src="offwhite.jpg">
+          <div class="text">
+            <h3 class="product_title">オフホワイト</h3>
+            <div class="product_data">38000円</div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- 下段 -->
+      <div id="container">
+
+        <div class="product">
+          <img src="offwhite.jpg">
+          <div class="text">
+            <h3 class="product_title">オフホワイト</h3>
+            <div class="product_data">38000円</div>
+          </div>
+        </div>
+
+        <div class="product">
+          <img src="pera.jpg">
+          <div class="text">
+            <h3 class="product_title">ペラフィネ</h3>
+            <div class="product_data">72000円</div>
+          </div>
+        </div>
+
+        <div class="product">
+          <img src="offwhite.jpg">
+          <div class="text">
+            <h3 class="product_title">オフホワイト</h3>
+            <div class="product_data">720円</div>
+          </div>
+        </div>
+
+        <div class="product">
+          <img src="pera.jpg">
+          <div class="text">
+            <h3 class="product_title">ペラフィネ</h3>
+            <div class="product_data">72000円</div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <footer>
+      &copy; 2019 U'z
+    </footer>
+
+
+  </body>
+</html>
+
+
+<style>
+  *{
+    padding: 0;
+    margin: 0;
+  }
+
+  header {
+    background-image: url(header.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 65vh;
+  }
+
+  .product{
+    background: #f6f5f5;
+    float: left;
+    width: 25%;
+    text-align: center;
+    margin: 50px 0;
+  }
+
+  #container{
+    width: 80vw;
+    overflow: hidden;
+    margin: 0 auto;
+  }
+
+  .product_title{
+    float: left;
+  }
+
+  footer{
+    background: rgba(0,0,0,0.9);
+    height: 150px;
+    text-align: center;
+    line-height: 150px;
+    color: #D8D8D8;
+  }
+
+  #search_tool{
+    float: right;
+  }
+
+  ul{
+    list-style: none;
+  }
+
+  input{
+    width: 150px;
+  }
+</style>

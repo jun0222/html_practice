@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>U's BBS</title>
+</head>
+<body>
+
+<header class="header">
+  U's Contact BBS.
+</header>
+<main class="main-wrap">
+<article class="main">
+
+  <div class="line-bc">
+
+    <div class="balloon6">
+      <div class="chatting">
+        <div class="says">
+          <p>こんにちは！</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="balloon6">
+      <div class="chatting">
+        <div class="says">
+          <p>どうも、こんにちは。</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="mycomment">
+      <p>
+      何してたんですか？
+      </p>
+    </div>
+
+    <div class="balloon6">
+      <div class="chatting">
+        <div class="says">
+          <p>お昼ご飯を食べていました、そちらは？</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="mycomment">
+      <p>
+      テレビを見ていました。
+      </p>
+    </div>
+
+    <div class="mycomment">
+      <p>
+      素敵ですね。何の番組を？
+      </p>
+    </div>
+
+    <div class="balloon6">
+      <div class="chatting">
+        <div class="says">
+          <p>お笑い番組です。お笑いは好きですか？</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</article>
+
+  <aside class="sidebar">
+    <section class="comment_tool_wrap">
+      <textarea name="xxx" cols="25" rows="23" style="font-size:20px" placeholder="Please enter your message."></textarea>
+      <input type="submit" value="Send" class="submit">
+    </section>
+  </aside>
+</main>
+<footer class="footer">
+  &copy; 2019 U'z
+</footer>
+
+</body>
+</html>
+
+<style>
+  body{
+    margin: 0;
+  }
+  .header{
+    background: black;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+    color: #fff;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 1px solid #A4A4A4;
+  }
+  .main-wrap{
+    height: calc(100vh - 80px - 80px);
+    color: #fff;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+  }
+  .main{
+    background-image: url(talkbackground.jpg);
+    height: 100%;
+    color: black;
+    width: calc(100% - 300px);
+    float: left;
+    overflow: scroll;
+  }
+
+  .line-bc {
+  text-align: right;
+  font-size: 14px;
+}
+  .balloon6 {
+  width: 100%;
+  margin: 10px 0;
+  overflow: hidden;
+}
+
+.balloon6 .faceicon img{
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+.balloon6 .chatting {
+  width: 100%;
+  text-align: left;
+}
+.says {
+  display: inline-block;
+  position: relative;
+  margin: 0 0 0 50px;
+  padding: 10px;
+  max-width: 600px;
+  border-radius: 12px;
+  background: #D8D8D8;
+}
+
+.says:after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 3px;
+  left: -19px;
+  border: 8px solid transparent;
+  border-right: 18px solid #D8D8D8;
+  -ms-transform: rotate(35deg);
+  -webkit-transform: rotate(35deg);
+  transform: rotate(35deg);
+}
+.says p {
+  margin: 0;
+  padding: 0;
+}
+.mycomment {
+  margin: 10px 0;
+}
+.mycomment p {
+  display: inline-block;
+  position: relative;
+  margin: 0 10px 0 0;
+  padding: 8px;
+  max-width: 600px;
+  border-radius: 12px;
+  background: #D8D8D8;
+  font-size: 15px:
+}
+
+.mycomment p:after {
+  content: "";
+  position: absolute;
+  top: 3px;
+  right: -19px;
+  border: 8px solid transparent;
+  border-left: 18px solid #D8D8D8;
+  -ms-transform: rotate(-35deg);
+  -webkit-transform: rotate(-35deg);
+  transform: rotate(-35deg);
+}
+  .sidebar{
+    background: black;
+    height: 100%;
+    text-align: center;
+    color: #fff;
+    width: 300px;
+    float: left;
+    position: relative;
+  }
+  .submit{
+    padding: 15px 40px;
+    font-size: 1.2em;
+    background-color: #000;
+    color: #fff;
+  }
+  .comment_tool_wrap{
+    position: absolute;
+    top: 20px;
+    left: 5px;
+  }
+  .footer{
+    background: black;
+    height: 80px;
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 1px solid #A4A4A4;
+    line-height: 100px;
+  }
+</style>
