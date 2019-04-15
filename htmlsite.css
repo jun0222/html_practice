@@ -1,0 +1,65 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: white;
+}
+
+header{
+  padding-top: 40px;
+  background: black;
+}
+
+.top{
+  max-width: 800px;
+  margin: 0px auto;
+}
+
+nav{
+  background: white;
+  border-radius: 10px 10px 0 0 ;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  margin-left: 130px;
+}
+
+div.container{
+  padding: 30px 30px 60px 30px;
+  max-width: 740px;
+  margin: 0px auto;
+  background: white;
+  border-radius: 0 0 10px 10px;
+  box-shadow: 2px 2px 2px 2px black;
+}
+
+div.profile {
+  line-height: 35px;
+  padding: 0 20px;
+}
+
+hr{
+  margin: 20px 0;
+}
+
+footer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 20px 0;
+  font-size: 11px;
+  text-align: center;
+  background-color: black;
+  color: #666;
+
+}
