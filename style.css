@@ -1,0 +1,40 @@
+body{
+  margin: 0;
+}
+.header{
+  background: red;
+  height: 80px;
+  width: 980px;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.main-wrap{
+  height: 500px;
+  width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  text-align: center;
+  color: white;
+}
+.main{
+  background: blue;
+  height: 100%;
+  width: 680px;
+  float: left;
+}
+.sidebar{
+  background: green;
+  height: 100%;
+}
+.footer{
+  background: black;
+  height: 80px;
+  width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  text-align: center;
+}
