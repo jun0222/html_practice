@@ -1,0 +1,35 @@
+body{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header{
+  width: 980px;
+  height:80px;
+  background: red;
+  margin-right: auto;
+  margin-left: auto;
+  color: white;
+  text-align: center;
+}
+
+.main{
+  width: 980px;
+  height: 500px;
+  background: blue;
+  margin-right: auto;
+  margin-left: auto;
+  color: white;
+  text-align: center;
+}
+
+.footer{
+  width: 980px;
+  height: 80px;
+  background: black;
+  margin-right: auto;
+  margin-left: auto;
+  color: white;
+  text-align: center;
+}
