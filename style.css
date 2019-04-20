@@ -1,0 +1,16 @@
+body{
+  margin: 0;
+}
+.palent{
+  background: black;
+  height: 500px;
+  width: 500px;
+}
+.child{
+  background: red;
+  display: block;
+  height: 100px;
+  width: 100px;
+  position: relative;
+  top:calc((500px - 100px)/2);
+}
