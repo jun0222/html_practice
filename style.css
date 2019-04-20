@@ -1,0 +1,17 @@
+body{
+  margin: 0;
+}
+.palent{
+  background: black;
+  height: 500px;
+  width: 500px;
+}
+.child{
+  background: red;
+  height: 100px;
+  width: 100px;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+  top: 200px;
+}
