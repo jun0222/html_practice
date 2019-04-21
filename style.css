@@ -1,0 +1,35 @@
+body{
+  margin: 0;
+}
+.parent{
+  background:#f6f5f4;
+  height: 200px;
+  width: 500px;
+  overflow: hidden;
+}
+.child-wrap{
+  float: right;
+  position: relative;
+  top: calc((200px - 100px)/2);
+}
+.child{
+  height: 100px;
+  width: 100px;
+  float: left;
+  margin-right: 10px;
+}
+.child:last-child{
+  margin-right: 0;
+}
+.child1{
+  background: red;
+}
+.child2{
+  background: green;
+}
+.child3{
+  background: blue;
+}
+.child4{
+  background: yellow;
+}
